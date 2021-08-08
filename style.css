@@ -222,5 +222,87 @@ section {
 }
 
 .four {
-  
+
 }
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  background-image: linear-gradient(60deg, #E21143, #FFB03A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  background-image: linear-gradient(60deg, #E21143, #FFB03A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  background-image: linear-gradient(60deg, #E21143, #FFB03A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.social-links a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 13px;
+    background-image: linear-gradient(60deg, #E21143, #FFB03A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card {
+  padding: 40px;
+  max-width: 360px;
+  border-radius: 20px;
+  margin: 60px auto;
+  margin-top: 25vh;
+  font-family: 'Spartan', sans-serif;
+  text-align: center;
+  background-color: #333;
+}
+
+.card2 {
+  padding: 40px;
+  max-width: 360px;
+  border-radius: 20px;
+  margin: 60px auto;
+  font-family: 'Spartan', sans-serif;
+  text-align: center;
+  background-color: #333;
+}
+
+.shadow { 
+  box-shadow: 0 7px 30px -10px rgb(0, 0, 0);
+}
+
+.shadow2 { 
+  box-shadow: 0 7px 30px -10px rgb(0, 0, 0);
+}
+
+.exp {
+  background: #333;
+  overflow: hidden;
+  opacity: 0;
+  line-height: 0;
+  padding: 0 1em;
+  color: transparent;
+}
+ 
+.exp:target {
+  transition: all .5s ease-in-out;
+  opacity: 1;
+  line-height: 3.3;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #333;
+}
+
