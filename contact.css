@@ -25,6 +25,18 @@ nav {
     font-size: 20px;
 }
 
+.name a{
+    background: linear-gradient(to right, rgb(226, 226, 226) 50%, #E21143 50%, #FFB03A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    transition: 0.5s ease-out;
+}
+
+.name a:hover {
+    background-position: -100%;
+} 
+
 .nav-links {
     display: flex;
     justify-content: space-around;
@@ -41,9 +53,15 @@ nav {
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 14px;
-    background-image: linear-gradient(60deg, #E21143, #FFB03A);
+    background: linear-gradient(to right, rgb(226, 226, 226) 50%, #E21143 50%, #FFB03A);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    transition: 0.5s ease-out;
+}
+
+.nav-links a:hover {
+    background-position: -100%;
 }
 
 .burger {
